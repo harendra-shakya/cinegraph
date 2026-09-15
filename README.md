@@ -211,6 +211,8 @@ The proposed frame is recorded in [docs/EVIDENCE-FRAME.md](docs/EVIDENCE-FRAME.m
 
 This repository is at the research and product-foundation stage. The OpenCinema application has not yet been implemented.
 
+The production architecture for CineGraph is defined in the [architecture selection](docs/superpowers/specs/2026-09-16-cinegraph-architecture-selection.md), [context graph design](docs/superpowers/specs/2026-09-16-cinegraph-context-graph-design.md), and [implementation plan](docs/superpowers/plans/2026-09-16-cinegraph-context-graph.md). The selected design uses an immutable, bitemporal, content-addressed event core with PostgreSQL transactions, canonical RDF/JSON-LD projections, governed evidence storage, derived retrieval indexes, and OriginTrail DKG as the controlled distribution and verification layer.
+
 The validated work so far is:
 
 - Current Livepeer Agent capabilities, pricing, and invocation behavior researched.
@@ -259,6 +261,9 @@ OpenCinema should feel like professional creative software:
 - [Hackathon rules and Track 2 requirements](docs/research/HACKATHON-RULES.md)
 - [Livepeer Agent research](docs/research/LIVEPEER.md)
 - [OriginTrail DKG research](docs/research/ORIGINTRAIL.md)
+- [CineGraph production architecture selection](docs/superpowers/specs/2026-09-16-cinegraph-architecture-selection.md)
+- [CineGraph context graph design](docs/superpowers/specs/2026-09-16-cinegraph-context-graph-design.md)
+- [CineGraph production implementation plan](docs/superpowers/plans/2026-09-16-cinegraph-context-graph.md)
 - [Workshop notes](docs/research/LIVEPEER-WORKSHOP-NOTES.md)
 - [Reference app analysis](docs/research/REFERENCE-APP.md)
 - [Reuse map](docs/research/REUSE-MAP.md)
